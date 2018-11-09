@@ -537,6 +537,14 @@ header {
 }
 
 /* clearsoft-custom */
+.top-menu .menu-container {
+    width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: auto;
+	text-align: center;
+}
+
 /*
 .container-fix .container {
     width: 100%;
@@ -4659,7 +4667,8 @@ label[for='input-quantity']{
 	#cart .dropdown-menu { min-width:inherit; right:-64px; width:300px; }
 	#cart .dropdown-menu:before { right:145px; }
 	#search { width:100%; }
-	.search-container { width:250px; right:-150px; }
+	/*.search-container { width:250px; right:-150px; }*/
+	.search-container { width:250px; }
 	#search-by-category .search-ajax { width:250px; margin:75px 0 0 -89px; }
 	.quantity-actions { margin:0; }
 	.block-3 .nav-tabs li { width:100%; }
